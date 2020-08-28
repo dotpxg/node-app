@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
   res.send('This is a Test Response!')
 })
 
-app.listen(port, () => {
+app.listen(8080,'35.202.230.61', () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
 
